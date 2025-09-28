@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(180, 177, 173);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+    margin-top: 25%;
+}
+
+#planeBox {
+    display: block;            
+    margin: 20px auto;         
+    border-radius: 20px;       
+    width: 60%;
+    padding: 20px;            
+    font-size: 16px;          
+    text-align: center;
+}
+
+#airlinelogo{
+    height: 250px;
+    width: 250px;
+    display: block;  
+    margin: 20px auto;
+}

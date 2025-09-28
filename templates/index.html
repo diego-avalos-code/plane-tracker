@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes Above My House</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta http-equiv="refresh" content="15">
+</head>
+<body>
+    <h1>INCOMING PLANE</h1>
+    <img src="https://airlinelogosbucket.s3.us-east-1.amazonaws.com/logos/waitingforplane.png" alt="Airline Logo" id="airlinelogo">
+    <input id="planeBox" type="text" readonly placeholder="Waiting for plane to appear inside 2km from the house...." value="{{ plane }}">
+    <script src="{{ url_for('static', filename='plane.js') }}"></script>
+</body>
+</html>
