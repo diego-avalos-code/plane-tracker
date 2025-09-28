@@ -5,8 +5,8 @@ from geopy.distance import geodesic
 from flask import Flask, render_template
 
 #Enter here the latitude and longitude of your house
-MY_LAT = 25.7743898
-MY_LON = -80.4044014
+MY_LAT = #<your-latitude>
+MY_LON = #<your-longitude>
 
 #max distance to check for planes in kilometers
 MAX_DISTANCE = 2
